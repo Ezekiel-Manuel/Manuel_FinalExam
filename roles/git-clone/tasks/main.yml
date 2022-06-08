@@ -4,7 +4,7 @@
 - name: Cloning Prelim Exam on Ubuntu
   git:
     repo: https://github.com/Ezekiel-Manuel/Manuel_PrelimExam.git
-    dest: /home/Ezekiel-Manuel/pulga_prelim
+    dest: /home/Ezekiel-Manuel/Manuel_PrelimExam
     clone: yes
     update: yes
   when: ansible_facts['distribution'] == 'Ubuntu'
